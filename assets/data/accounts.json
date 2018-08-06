@@ -1,0 +1,229 @@
+[
+    {
+      "__comments":"Customer accounts." 
+    },
+    {
+        "id": 1,
+        "first_name":"stephen",
+        "last_name":"macgregor",
+        "email":"stephenmacgregor@gmail.com",
+        "address":{
+            "street":"30 regent st",
+            "city":"london",
+            "country":"england"
+        },
+        "purchases":{
+            "toys": 4,
+            "books": 2,
+            "models": 7
+        }
+    },
+    {
+        "id": 2,
+        "first_name":"jonh",
+        "last_name":"jones",
+        "email":"jonhjones@gmail.com",
+        "address":{
+            "street":"88 Oxford Road",
+            "city":"manchester",
+            "country":"england"
+        },
+        "purchases":{
+            "toys": 2,
+            "books": 1,
+            "models": 3
+        }
+        
+    },
+    {
+        "id": 3,
+        "first_name":"rita",
+        "last_name":"harlock",
+        "email":"ritaharlock@gmail.com",
+        "address":{
+            "street":"12 alexander place",
+            "town":"inverness",
+            "country":"scotland"
+        },
+        "purchases":{
+            "toys": 8,
+            "books": 0,
+            "models": 10
+        }    
+    },
+    {
+        "id": 4,
+        "first_name":"luke",
+        "last_name":"williams",
+        "email":"lukewilliams@gmail.com",
+        "address":{
+            "street":"2a macgill drive ",
+            "town":"edinburgh",
+            "country":"scotland"
+        },
+        "purchases":{
+            "toys": 1,
+            "books": 7,
+            "models": 2
+        }
+    },
+    {
+        "id": 5,
+        "first_name":"mark",
+        "last_name":"mason",
+        "email":"markmason@gmail.com",
+        "address":{
+            "street":"6 st mary st",
+            "town":"cardiff",
+            "country":"wales"
+        },
+        "purchases":{
+            "toys": 0,
+            "books": 0,
+            "models": 15
+        }
+    },
+    {
+        "id": 6,
+        "first_name":"stefan",
+        "last_name":"schwarzs",
+        "email":"stefanschwarzs@gmail.com",
+        "address":{
+            "street":"54 Fasanerieallee",
+            "city":"berlin",
+            "country":"germany"
+        },
+        "purchases":{
+            "toys": 1,
+            "books": 10,
+            "models": 0
+        }
+    },
+    {
+        "id": 7,
+        "first_name":"oscar",
+        "last_name":"hasen",
+        "email":"oscarhasen@gmail.com",
+        "address":{
+            "street":"15 istedgade",
+            "city":"copenhagen"
+        },
+        "purchases":{
+            "toys": 5,
+            "books": 3,
+            "models": 2
+        }
+    },
+    {
+        "id": 8,
+        "first_name":"brad",
+        "last_name":"bateman",
+        "email":"bradbateman@gmail.com",
+        "address":{
+            "street":"105 hayne avenue",
+            "town":"chickasaw",
+            "country":"united states"
+        },
+        "purchases":{
+            "toys": 1,
+            "books": 1,
+            "models": 1
+        }
+    },
+    {
+        "id": 9,
+        "first_name":"kate",
+        "last_name":"love",
+        "email":"katelove@gmail.com",
+        "address":{
+            "street":"51 bell st",
+            "town":"pine bluff",
+            "country":"united states"
+        },
+        "purchases":{
+            "toys": 2,
+            "books": 1,
+            "models": 0
+        }
+    },
+    {
+        "id": 10,
+        "first_name":"leif",
+        "last_name":"odd",
+        "email":"leifodd@gmail.com",
+        "address":{
+            "street":"9 Karl johans gate",
+            "city":"oslo",
+            "country":"norway"
+        },
+        "purchases":{
+            "toys": 9,
+            "books": 1,
+            "models": 3
+        }
+    },
+    {
+        "id": 11,
+        "first_name":"agnieszka",
+        "last_name":"love",
+        "email":"agnieszkalove@gmail.com",
+        "address":{
+            "street":"97 bonifraterska st",
+            "city":"warsaw",
+            "country":"poland"
+        },
+        "purchases":{
+            "toys": 0,
+            "books": 0,
+            "models": 5
+        }
+    },
+    {
+        "id": 12,
+        "first_name":"john",
+        "last_name":"love",
+        "email":"johnlove@gmail.com",
+        "address":{
+            "street":"62 aire place",
+            "city":"leeds",
+            "country":"england"
+        },
+        "purchases":{
+            "toys": 1,
+            "books": 1,
+            "models": 4
+        }
+    },
+    {
+        "id": 13,
+        "first_name":"clare",
+        "last_name":"redfield",
+        "email":"clareredfield@gmail.com",
+        "address":{
+            "street":"101 st peters st ",
+            "town":"st albans",
+            "country":"england"
+        },
+        "purchases":{
+            "toys": 1,
+            "books": 0,
+            "models": 1
+        }
+    },
+    {
+        "id": 14,
+        "first_name":"sam",
+        "last_name":"johnson",
+        "email":"samjohnson@gmail.com",
+        "address":{
+            "street":"1 magpie lane",
+            "town":"oxford",
+            "country":"england"
+        },
+        "purchases":{
+            "toys": 1,
+            "books": 1,
+            "models": 1
+        }
+    }
+]

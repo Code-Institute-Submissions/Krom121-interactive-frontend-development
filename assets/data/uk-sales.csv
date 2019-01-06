@@ -1,12 +1,12 @@
-uk,shipping cost,sales
-london,86.88,25
-edinburgh,57.99,10
-manchester,34.66,5
-liverpool,66.88,4
-st albans,123.87,85
-blackpool,143.87,99
-inverness,93.44,34
-newcastle,22.55,2
-leeds,55.66,7
-cardiff,77.66,6
-oxford,55.44,3
+uk,shipping cost,sales,year
+london,86.88,25,2008
+edinburgh,57.99,10,2012
+manchester,34.66,5,2009
+liverpool,66.88,4,2014
+st albans,123.87,85,2015
+blackpool,143.87,99,2010
+inverness,93.44,34,2011
+newcastle,22.55,2,2012
+leeds,55.66,7,2014
+cardiff,77.66,6,2009
+oxford,55.44,3,2014

@@ -2,6 +2,8 @@
 
 Here is a small visualisation of some company sales, In a dash board format.
 
+ To view please click the link:  https://krom121.github.io/interactive-frontend-development/
+
 ### Tech Used
 
     Html 5 for the structure of the page.

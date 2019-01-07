@@ -52,8 +52,8 @@ d3.csv("assets/data/uk-sales.csv")
     })
     .catch((error) => {
         throw error;
-        
-      
+                
+});
 
+// bubble chart 
 
-    });

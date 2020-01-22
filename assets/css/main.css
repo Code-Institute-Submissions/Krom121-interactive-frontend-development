@@ -6,21 +6,3 @@ body{
     padding: 0;
     margin: 0;
 }
-
-/* Bar chart styles */
-.bar {
-    fill: steelblue;
-  }
-  
-  .bar:hover {
-    fill: brown;
-  }
-  
-  .axis--x path {
-    display: none;
-  }
-
-  h1,h2,h3,h4 {
-    text-align: center;
-    padding: 3rem 0;
-  }

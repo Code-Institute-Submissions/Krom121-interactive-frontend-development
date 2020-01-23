@@ -1,1 +1,1 @@
-prepData('./contryGNI.csv')
+prepData('.assets/data/contryGNI.csv')

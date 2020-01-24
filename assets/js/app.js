@@ -1,1 +1,5 @@
-prepData('.assets/data/contryGNI.csv')
+/*
+  Loading the data from the csv file.
+*/
+
+prepData("assets/data/countryGNI.csv")

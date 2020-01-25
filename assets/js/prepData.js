@@ -25,12 +25,13 @@ function convertToIntegers(array){
 function prepData(srcString){
   return new Promise((resolve, reject) => {
     return d3.csv(srcString).then(result => {
-      //console.log(result) check that dat is working
+      //console.log(result) check that data is working
       let convertedIntegers = convertToIntegers(result);
       // filter the converted Integers by top 5 by the key of GNI
       let filteredRes = getTop(5, convertedIntegers, 'GNI')
+
       resolve(filteredRes);
-      //console.log(filteredRes) check that dat is sorted
+      // console.log(filteredRes) check that dat is sorted
     })
   })
 }

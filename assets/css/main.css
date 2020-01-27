@@ -10,17 +10,20 @@ body{
 }
 
 /* family tree chart css */
-.node circle {
-    fill: #999;
+.node, circle {
+    fill: #A3FDA1;
 }
 
-.node text {
-    font: 1rem;
+.nodeText {
+    color: #343434;
+    font-style: oblique;
+    font-size: 0.9rem;
+    font-weight: bolder;
 }
 
 .link {
     fill: none;
-    stroke: #555;
-    stroke-opacity: 0.4;
-    stroke-width: 0.5rem;
+    stroke: #FDB7B7;
+    stroke-opacity: 0.6;
+    stroke-width: 0.3rem;
 }

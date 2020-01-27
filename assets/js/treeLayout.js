@@ -48,7 +48,7 @@ function buildTreeChart(parentId, sourceData) {
                 "transform": d => `translate(${d.y}, ${d.x})`
             })
 
-    let nodeCircle = nodeEnter.append("circle").attr("r", 2.5);
+    let nodeCircle = nodeEnter.append("circle").attr("r", 4.5);
 
     let nodeTxt = nodeEnter.append("text")
     .attrs({

@@ -8,3 +8,19 @@ body{
     margin: 0;
     overflow-x: hidden;
 }
+
+/* family tree chart css */
+.node circle {
+    fill: #999;
+}
+
+.node text {
+    font: 1rem;
+}
+
+.link {
+    fill: none;
+    stroke: #555;
+    stroke-opacity: 0.4;
+    stroke-width: 0.5rem;
+}

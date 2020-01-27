@@ -108,16 +108,18 @@ function pieData(srcString){
 
 function treeData(srcString, idKey, parentKey){
 	return new Promise((resolve, reject) => {
+
 		return d3.csv(srcString).then(result => {
 
 			// stratify data to give options for keys
 			let stratData = d3.stratify()
-			.id(d => d[idKey])
-			.parentId(d => d[parentKey])
-			(result)
+		        .id(d => d[idKey])
+		        .parentId(d => d[parentKey])
+		        (result)
 			// console.log('stratData') check that data is be loaded
 			//console.log(stratData) check that data is be loaded
-			resolve(result);
+			 
+			resolve(stratData);
 		})
 	})
 }

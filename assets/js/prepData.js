@@ -20,7 +20,7 @@ function convertToIntegers(array){
 }
 
 /*
-  Loading the prepared data for use in charts.
+  Loading the prepared data for use in barchart.
 */
 function prepData(srcString){
   return new Promise((resolve, reject) => {
@@ -54,7 +54,7 @@ function convertToIntegers(array){
 	}).filter(d => d.GNI);
 }
 
-// pie chart 
+// grouping data for the pie chart 
 
 function groupByLevel(srcData){
 	let resArr = []
@@ -87,4 +87,37 @@ function groupByLevel(srcData){
 	})
 	
 	return resArr
+}
+
+/*
+  Loading the prepared data for use in charts.
+*/
+function pieData(srcString){
+	return new Promise((resolve, reject) => {
+
+		return d3.csv(srcString).then(result => {
+
+			let groupedData = groupByLevel(result)
+
+			resolve(groupedData);
+		})
+	})
+}
+
+// Loading the prepared data for use in hierarchical chart
+
+function treeData(srcString, idKey, parentKey){
+	return new Promise((resolve, reject) => {
+		return d3.csv(srcString).then(result => {
+
+			// stratify data to give options for keys
+			let stratData = d3.stratify()
+			.id(d => d[idKey])
+			.parentId(d => d[parentKey])
+			(result)
+			// console.log('stratData') check that data is be loaded
+			//console.log(stratData) check that data is be loaded
+			resolve(result);
+		})
+	})
 }

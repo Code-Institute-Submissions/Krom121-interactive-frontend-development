@@ -44,17 +44,17 @@ function buildPieChart(parentID, sourceData){
 	let g = appendToParent(svg, 'g', 'gWrapper', `translate(${width/2},${height/2})`)
 
 	let arcs = g.selectAll(".arc")
-	      .data(pieData)
+	    .data(pieData)
 	    .enter().append("g")
-	      .attr("class", "arc");
+	    .attr("class", "arc");
 
 	arcs.append("path")
-	      .attr("d", arcFn)
-	      .style("fill", (d, ind) => colorScale(ind));
+	    .attr("d", arcFn)
+	    .style("fill", (d, ind) => colorScale(ind));
 
 	let arcText = arcs.append("text")
-	      .attr("transform", d => "translate(" + labelArcFn.centroid(d) + ")")
-	      .attr("dy", ".8rem");
+	    .attr("transform", d => "translate(" + labelArcFn.centroid(d) + ")")
+	    .attr("dy", ".8rem");
 
 	arcText.append('tspan')
 		.attr('text-anchor', 'middle')

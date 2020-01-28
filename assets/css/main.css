@@ -9,7 +9,7 @@ body{
     overflow-x: hidden;
 }
 
-/* family tree chart css */
+/* family tree chart styles */
 .node, circle {
     fill: #A3FDA1;
 }
@@ -26,4 +26,20 @@ body{
     stroke: #FDB7B7;
     stroke-opacity: 0.6;
     stroke-width: 0.3rem;
+}
+
+/* Interactive button styles */
+
+.buttonG{
+    border: 2px solid steelblue;
+    display: inline-block;
+    text-align: left;
+    border-radius: 10rem;
+    padding: 1rem;
+}
+
+.buttonG:hover {
+    background-color: darkgray;
+    color: white;
+    cursor: pointer;
 }

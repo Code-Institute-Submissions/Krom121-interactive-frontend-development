@@ -123,3 +123,18 @@ function treeData(srcString, idKey, parentKey){
 		})
 	})
 }
+
+function povertyData(fileName){
+	return new Promise((res, rej) => {
+		let resData = null;
+		// load json data, assign to variable
+		return d3.json(fileName).then(data => {
+			// select first item
+			let withSelection = data.map((d, ind) => {
+				d['selected'] = (ind == 0) ? true : false
+				return d
+			})
+			res(withSelection)
+		})
+	})
+}

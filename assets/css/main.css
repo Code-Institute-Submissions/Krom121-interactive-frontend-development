@@ -43,3 +43,8 @@ body{
     color: white;
     cursor: pointer;
 }
+
+#barDiv {
+    width: 100%;
+    height: 40rem;
+}

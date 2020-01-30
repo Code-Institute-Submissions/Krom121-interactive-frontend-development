@@ -27,24 +27,3 @@ body{
     stroke-opacity: 0.6;
     stroke-width: 0.3rem;
 }
-
-/* Interactive button styles */
-
-.buttonG{
-    border: 2px solid steelblue;
-    display: inline-block;
-    text-align: left;
-    border-radius: 10rem;
-    padding: 1rem;
-}
-
-.buttonG:hover {
-    background-color: darkgray;
-    color: white;
-    cursor: pointer;
-}
-
-#barDiv {
-    width: 100%;
-    height: 40rem;
-}

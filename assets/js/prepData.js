@@ -123,3 +123,16 @@ function treeData(srcString, idKey, parentKey){
 		})
 	})
 }
+
+function lineData(srcString){
+	return new Promise((resolve, reject) => {
+
+		// load data assign to variable
+		return d3.json(srcString).then(data => {
+			//console.log('data') check that api is working
+			//console.log(data) check that api is working
+			resolve(data)
+		})
+
+	})
+}

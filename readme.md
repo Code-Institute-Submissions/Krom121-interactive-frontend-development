@@ -1,10 +1,10 @@
-### Data Visualisation
+# Data Visualisation
 
 Here is a small visualisation of some company sales, In a dash board format.
 
- To view please click the link:  https://krom121.github.io/interactive-frontend-development/
+ To view please click the link:  <https://krom121.github.io/interactive-frontend-development/>
 
-### Tech Used
+## Tech Used
 
     Html 5 for the structure of the page.
 
@@ -24,11 +24,11 @@ Here is a small visualisation of some company sales, In a dash board format.
 
  Bugs where fixed where changes where made from the different versions of d3.js.
 
- ### Credit 
+### Credit
 
  I referenced d3.js.org documentation
 
- ### Etra Notes
+### Etra Notes
 
  I will be taking a seperate course on d3.js that goes deeper into d3.js. To help my understanding of d3.js.
 

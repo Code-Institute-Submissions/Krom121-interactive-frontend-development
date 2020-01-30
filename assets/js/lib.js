@@ -12,3 +12,20 @@ function appendToParent(parent, type, className, transformation){
         });
       
 }
+
+function handleLineUpdate(data) {
+    let lineObj = d3.line()
+        .x(d => xScale(d.date))
+        .y(d => yScale(d.value))
+        .curve(d3.curveBasis)
+
+    d3.select('.gWrapper')
+        .append('path')
+        .attrs({
+            'fill': 'none',
+            'stroke': 'red',
+            'stroke-width': 4,
+            'class': 'path',
+            'd': lineObj(data.bpi)
+        })
+}

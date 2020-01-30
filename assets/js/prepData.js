@@ -124,14 +124,34 @@ function treeData(srcString, idKey, parentKey){
 	})
 }
 
+// convert json to an array function
+
+function convertToArr(src){
+	let parsedData = d3.timeParse("%Y-%m-%d");
+	// put the api's bpi into an object
+	let obj = src.bpi
+	// store object in a key
+	let keys = Object.keys(obj)
+	// map through the keys creating an object of each key
+	let resArr = keys.map(k => {
+		let o = {}
+		o['date'] = parsedData(k)
+		o['value'] = obj[k]
+		return o
+	})
+	src.bpi = resArr;
+	return src
+}
+
 function lineData(srcString){
 	return new Promise((resolve, reject) => {
 
 		// load data assign to variable
 		return d3.json(srcString).then(data => {
+			let arrayData = convertToArr(data)
 			//console.log('data') check that api is working
 			//console.log(data) check that api is working
-			resolve(data)
+			resolve(arrayData)
 		})
 
 	})

@@ -1,3 +1,4 @@
+let colorScale = d3.scaleOrdinal().range(d3.schemeRdYlGn[4]);
 
 const geoNatural = d3.geoNaturalEarth1();
 
@@ -23,7 +24,7 @@ function worldData(){
                     .then(jsonRes => {
 
                     // load GNI data
-                    d3.csv('assets/data/countryClassifications.csv').then(gniData => {
+                    d3.csv('assets/data/countryGNIClassifications.csv').then(gniData => {
                     // define countries from json data
                     const countries = topojson.feature(jsonRes, jsonRes.objects.countries);
 
@@ -36,11 +37,10 @@ function worldData(){
                     // assign a countryName key to the countries feature
                     d.countryName = tsvData.filter(tsv => tsv.iso_n3 == [thisCountryID])[0].name
                             
-                    // assign a gni value from gni data
-                    let thisClassification = gniData.filter(gni => gni.countryName == d.countryName)
-                    d.gni = (thisClassification) ? thisClassification.Classification : null;
-
-                        return d;
+					//assign a 'gni' value from gniData
+					let thisClassification = gniData.filter(gni => gni.CountryName == d.countryName)[0]
+					d.gni = (thisClassification) ? thisClassification.Classification : null;
+					return d;
                     })
 
                     res(countries)

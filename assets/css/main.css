@@ -30,17 +30,28 @@ body{
 
 /*  world mapp styles */
 
+.world-body {
+    background: #344;
+}
+
 .worldWrapper {
     height: 100vh;
     width: 100%;
 }
 
 .spherePath {
-    fill: navy;
+    fill: rgba(113, 157, 252, 0.096);
 }
 
 .countryPath {
-    fill: green;
+    stroke: rgb(235, 222, 213);
+    stroke-width: 0.4;
+    opacity: .8;
+}
+
+.countryPath:hover {
+    opacity: 1;
     stroke: seashell;
-    stroke-width: 1px;
+    stroke-width: 0.8;
+    cursor: pointer;
 }

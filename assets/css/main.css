@@ -27,3 +27,20 @@ body{
     stroke-opacity: 0.6;
     stroke-width: 0.3rem;
 }
+
+/*  world mapp styles */
+
+.worldWrapper {
+    height: 100vh;
+    width: 100%;
+}
+
+.spherePath {
+    fill: navy;
+}
+
+.countryPath {
+    fill: green;
+    stroke: seashell;
+    stroke-width: 1px;
+}

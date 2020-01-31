@@ -18,6 +18,8 @@ treeData("assets/data/treeData.csv", 'id', 'parent').then(result => {
   return buildTreeChart('#treeWrapper', result)
 })
 
+// import data for line chart
+
 lineData('https://api.coindesk.com/v1/bpi/historical/close.json')
     .then(resData => {
        lineChart('#lineWrapper', resData).then(handleLineUpdate)

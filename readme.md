@@ -1,6 +1,6 @@
 # Data Visualisation
 
-Here is a small visualisation of some company sales, In a dash board format.
+Here is a small visualisation of some demo charts, In a form of a bar chart, pie chart line chart and a world map chart.
 
  To view please click the link:  <https://krom121.github.io/interactive-frontend-development/>
 
@@ -10,19 +10,19 @@ Here is a small visualisation of some company sales, In a dash board format.
 
     Bootstrap css was used for layout purposes.
 
-    Css was used for some styling.
+    Css was used for some custom styling.
 
-    D3.js version 5 was used for the visualisation of the data.
+    D3.js version 5.15.0 was used for the visualisation of the data.
 
-    Csv files where used to store the data. Which I had created in Excel.
+    Csv files where used to store the data.
 
-    Data Array with json format was used inside the pie chart.
+    Api's where used to deliver data of bitcoin to line chart.
 
 ### Unit Testing
 
  Manual testing was performed on all the graphs.
 
- Bugs where fixed where changes where made from the different versions of d3.js.
+ Bugs where fixed where changes where made from the different versions of d3.js. Using developer inspect tool in google.
 
 ### Credit
 

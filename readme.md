@@ -30,6 +30,12 @@ Using developer inspect tool in google to insure that fixes that needed to be fi
 
  I referenced d3.js.org documentation
 
+<https://github.com/d3/d3-scale-chromatic#> colorScale to color worldmap
+
+<https://github.com/d3/d3-geo#d3-geo> builds a rype of map projection
+
+<https://github.com/d3/d3-geo#geoPath> builds a PATH given topo-json feature
+
 ### Etra Notes
 
  I will be taking a seperate course on d3.js that goes deeper into d3.js. To help my understanding of d3.js.

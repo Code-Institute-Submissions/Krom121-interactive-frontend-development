@@ -1,5 +1,7 @@
 # Data Visualisation
 
+From the 6th of January 2019 the old parts of this project from 2018 where deleted. New project files where added to the project making this a new project with better charts.
+
 Here is a small visualisation of some demo charts, In a form of a bar chart, pie chart line chart and a world map chart.
 
  To view please click the link:  <https://krom121.github.io/interactive-frontend-development/>

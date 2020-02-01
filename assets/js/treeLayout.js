@@ -2,10 +2,10 @@ function buildTreeChart(parentId, sourceData) {
     const div = d3.select(parentId);
 
     const margin = {
-        top: 20,
+        top: 10,
         right: 20,
         bottom: 30,
-        left: 100
+        left: 90
     };
 
     // get width & height

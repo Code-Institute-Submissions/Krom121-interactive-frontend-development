@@ -40,6 +40,49 @@ nav {
     border-radius: 10rem;
 }
 
+/* Project headings styles */
+
+h1,h2,h3,h4 {
+    color: #344;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.world-heading{
+    color: seashell;
+}
+
+.world-text{
+   color: seashell; 
+   text-align: center;
+}
+
+/* chart styles */
+
+#chartWrapper {
+    text-align: center;
+}
+
+#pieWrapper {
+    text-align: center;
+}
+
+#lineWrapper {
+    text-align: right;
+}
+
+#treeWrapper {
+    text-align: center;
+}
+
+.bitcoin {
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem;
+}
+
 /* family tree chart styles */
 .node, circle {
     fill: #A3FDA1;

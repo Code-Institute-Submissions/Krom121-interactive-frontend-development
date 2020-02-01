@@ -8,9 +8,9 @@ function lineChart(parentID, sourceData){
         const div = d3.select(parentID);
         // create margins for line chart
         const margin = {
-            top: 20,
-            right: 20,
-            bottom: 30,
+            top: 10,
+            right: 10,
+            bottom: 20,
             left: 50
         };
 

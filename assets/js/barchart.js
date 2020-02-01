@@ -4,9 +4,9 @@ function buildBarChart(parentID, sourceData){
 
 	const margin = {
 		top: 20,
-		right: 20,
-		bottom: 30,
-		left: 50
+		right: 10,
+		bottom: 40,
+		left: 10
 	};
 
 	//get width & height

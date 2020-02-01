@@ -1,12 +1,43 @@
 body{
-    font-family: "Ubuntu", sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 400;
-    font-size: 1.1rem;
-    text-align: center;
     line-height: 1.7;
-    padding: 1rem;
     margin: 0;
     overflow-x: hidden;
+}
+
+/* Main navbar and header css */
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #344;
+    padding: 1rem;
+}
+
+.logo {
+    color: seashell;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+}
+
+.nav-item {
+    display: inline-block;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: seashell;
+    padding: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+}
+
+.nav-link:hover {
+    background: rgba(58, 192, 58, 0.596);
+    color: seashell;
+    border-radius: 10rem;
 }
 
 /* family tree chart styles */

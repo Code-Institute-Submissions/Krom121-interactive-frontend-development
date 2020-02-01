@@ -9,13 +9,39 @@
 	<link rel="stylesheet" href="assets/css/main.css">
 </head>
 <body>
-
-	<!-- Barchart element -->
-	<div id='chartWrapper' width="600" height="500"></div>
-
-	<!-- Piechart element -->
-	<div id='pieWrapper' width="600" height="500"></div>
-
+<header class="header">
+	<nav>
+		<div class="logo">
+			<p>chart demos</p>
+		</div>
+		<ul class="nav-list">
+			<li class="nav-item">
+				<a href="home.html" class="nav-link">Home</a>
+			</li>
+			<li class="nav-item">
+				<a href="bitcoin.html" class="nav-link">Bitcoin</a>
+			</li>
+			<li class="nav-item">
+				<a href="family-tree.html" class="nav-link">Family Tree</a>
+			</li>
+			<li class="nav-item">
+				<a href="worldmap.html" class="nav-link">World Map</a>
+			</li>
+		</ul>
+	</nav>
+</header>
+<div class="container">
+	<div class="row">
+		<div class="col">
+		<!-- Barchart element -->
+		<div id='chartWrapper' width="500" height="500"></div>
+		</div>
+		<div class="col">
+		<!-- Piechart element -->
+		<div id='pieWrapper' width="500" height="500"></div>
+		</div>
+	</div>
+</div>
 
 	<script src="assets/js/d3.js"></script>
 	<script src="assets/js/d3-selection-multi.js"></script>

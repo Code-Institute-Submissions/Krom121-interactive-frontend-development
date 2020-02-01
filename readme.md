@@ -22,7 +22,7 @@ Here is a small visualisation of some demo charts, In a form of a bar chart, pie
 
  Manual testing was performed on all the graphs.
 
- Bugs where fixed where changes where made from the different versions of d3.js. Using developer inspect tool in google.
+Using developer inspect tool in google to insure that fixes that needed to be fixed where fixed.
 
 ### Credit
 

@@ -36,6 +36,8 @@ Using developer inspect tool in google to insure that fixes that needed to be fi
 
 <https://github.com/d3/d3-geo#geoPath> builds a PATH given topo-json feature
 
+Mastering D3.js 5 By Colibri Ltd that I also referenced from. Making the project run faster.
+
 ### Etra Notes
 
  I will be taking a seperate course on d3.js that goes deeper into d3.js. To help my understanding of d3.js.

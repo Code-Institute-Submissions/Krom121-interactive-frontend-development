@@ -38,6 +38,8 @@ Using developer inspect tool in google to insure that fixes that needed to be fi
 
 Mastering D3.js 5 By Colibri Ltd that I also referenced from. Making the project run faster.
 
+D3.js Tips, Tricks, and Techniques By Eleftheria Batsou. I also referenced from.
+
 ### Etra Notes
 
  I will be taking a seperate course on d3.js that goes deeper into d3.js. To help my understanding of d3.js.
